@@ -6,7 +6,11 @@ const routes: Routes = [
   {
     path: '',
     component: Tab2Page,
-  }
+  }/* ,
+  {
+    path: 'agregar',
+    loadChildren: () => import('../../pages/agregar/agregar.module').then( m => m.AgregarPageModule)
+  } */
 ];
 
 @NgModule({
